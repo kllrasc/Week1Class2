@@ -3367,3 +3367,7 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2024.01.11-20.33.18:098][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
 [2024.01.11-20.33.18:106][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
 [2024.01.11-20.33.18:113][ 72]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/ThirdPerson/Maps/ThirdPersonMap does not exist, will not scan.
+[2024.01.11-20.56.24:074][316]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2024.01.11-20.56.24:074][316]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2024.01.11-21.02.05:089][546]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.01.11-21.02.57:712][781]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
